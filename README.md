@@ -1,2 +1,1 @@
-# JS_scripting
-DOM
+[JS scripting](https://clck.ru/S32FK)
