@@ -122,6 +122,9 @@
         };
 
         appendElement(document.body, 'div', 'content');
+        appendElement(document.body, 'div', 'main');
+        main.classList.add('main');
+        main.append(content);
 
         appendElement(content, 'form', 'mainForm');
         mainForm.classList.add('mainForm');
@@ -454,7 +457,7 @@
                 if (item.priceSegment === 'premium') elementContainer.classList.add('premiumStyle');
 
                 cardsContainer.append(elementContainer);
-                document.body.append(cardsContainer);
+                main.append(cardsContainer);
 
                 let contentDescription = document.createElement('div');
                 if (item.description === null || item.description === undefined) {
