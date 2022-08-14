@@ -1,1 +1,1 @@
-[deploy: js-app](https://dzmitrykaporski.github.io/js-scripting/JS%20Examine%20preparations.html)
+[deploy: js-app](https://dzmitrykaporski.github.io/scripting.js/JS%20Examine%20preparations.html)
