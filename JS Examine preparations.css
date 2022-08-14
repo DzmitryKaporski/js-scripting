@@ -1,6 +1,7 @@
 .main {
     display: flex;
     flex-direction: row;
+    box-shadow: 0 0 20px 0 rgba(185, 168, 168, 0.525);
 }
 
 .submiteButton {
@@ -51,7 +52,8 @@
     height: 350px;
     margin: 10px;
     padding: 5px 5px 5px 5px;
-    border: solid 4px grey;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 grey;
 }
 
 .optimalStyle {
@@ -59,7 +61,8 @@
     height: 350px;
     margin: 10px;
     padding: 5px 5px 5px 5px;
-    border: solid 4px green;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 green;
 }
 
 .premiumStyle {
@@ -67,13 +70,13 @@
     height: 350px;
     margin: 10px;
     padding: 5px 5px 5px 5px;
-    border: solid 4px orange;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 0 orange;
 }
 
 .cardsContainer {
     display: flex;
     flex-wrap: wrap;
-    flex-wrap: row;
     width: 100%;
 }
 
@@ -83,10 +86,14 @@
 
 .popup {
     position: absolute;
-    margin-left: -300px;
-    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: -6px;
+    margin-top: -6px;
     background: whitesmoke;
-    border: solid 4px red;
+    box-shadow: 0 0 10px 0 red;
 }
 
 .blockNone {
